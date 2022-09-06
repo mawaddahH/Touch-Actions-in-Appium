@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-07T01:24:16 AST" name="Default suite" finished-at="2022-09-07T01:25:00 AST" duration-ms="44377">
+    <groups>
+    </groups>
+    <test started-at="2022-09-07T01:24:16 AST" name="Default test" finished-at="2022-09-07T01:25:00 AST" duration-ms="44377">
+      <class name="ass2W11D5.TouchActionsinAppium.AppTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ass2W11D5.TouchActionsinAppium.AppTest@2f9f7dcf]" started-at="2022-09-07T01:23:57 AST" name="setUp" finished-at="2022-09-07T01:24:16 AST" duration-ms="18696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestDragandDrop()[pri:1, instance:ass2W11D5.TouchActionsinAppium.AppTest@2f9f7dcf]" started-at="2022-09-07T01:24:16 AST" name="TestDragandDrop" finished-at="2022-09-07T01:24:42 AST" duration-ms="25770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDragandDrop -->
+        <test-method signature="TestSwipe()[pri:2, instance:ass2W11D5.TouchActionsinAppium.AppTest@2f9f7dcf]" started-at="2022-09-07T01:24:42 AST" name="TestSwipe" finished-at="2022-09-07T01:24:59 AST" depends-on-methods="ass2W11D5.TouchActionsinAppium.AppTest.TestDragandDrop" duration-ms="17588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSwipe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ass2W11D5.TouchActionsinAppium.AppTest@2f9f7dcf]" started-at="2022-09-07T01:24:59 AST" name="tearDown" finished-at="2022-09-07T01:25:00 AST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ass2W11D5.TouchActionsinAppium.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
